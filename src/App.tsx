@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import dessert from './dessert.jpeg'
 import './App.css';
+import {Picture} from "./components/Picture/Picture.styled";
+import {Box} from "./components/Box/Box.styled";
+import {Headline} from "./components/Headline/Headline.styled";
+import {Text} from "./components/Text/Text.styled";
+import {ButtonLine} from "./components/Button/ButtonLine.styled";
+import {Button} from "./components/Button/Button.styled";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Box>
+                <Picture src={dessert} alt="dessert"/>
+                {/* eslint-disable-next-line react/jsx-no-undef */}
+                <Headline>Headline</Headline>
+                <Text>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.</Text>
+                <ButtonLine>
+                    <Button>See more</Button>
+                    <Button>Save</Button>
+                </ButtonLine>
+
+            </Box>
+        </div>
+    );
 }
+
 
 export default App;
