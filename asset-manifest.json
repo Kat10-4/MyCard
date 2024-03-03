@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/my-card/static/css/main.e6c13ad2.css",
-    "main.js": "/my-card/static/js/main.93bfc8ef.js",
-    "static/js/453.4b5b5ab1.chunk.js": "/my-card/static/js/453.4b5b5ab1.chunk.js",
-    "static/media/dessert.jpeg": "/my-card/static/media/dessert.4c2c0c922311270cffaf.jpeg",
-    "index.html": "/my-card/index.html",
-    "main.e6c13ad2.css.map": "/my-card/static/css/main.e6c13ad2.css.map",
-    "main.93bfc8ef.js.map": "/my-card/static/js/main.93bfc8ef.js.map",
-    "453.4b5b5ab1.chunk.js.map": "/my-card/static/js/453.4b5b5ab1.chunk.js.map"
+    "main.css": "/MyCard/static/css/main.e6c13ad2.css",
+    "main.js": "/MyCard/static/js/main.184e7995.js",
+    "static/js/453.4b5b5ab1.chunk.js": "/MyCard/static/js/453.4b5b5ab1.chunk.js",
+    "static/media/dessert.jpeg": "/MyCard/static/media/dessert.4c2c0c922311270cffaf.jpeg",
+    "index.html": "/MyCard/index.html",
+    "main.e6c13ad2.css.map": "/MyCard/static/css/main.e6c13ad2.css.map",
+    "main.184e7995.js.map": "/MyCard/static/js/main.184e7995.js.map",
+    "453.4b5b5ab1.chunk.js.map": "/MyCard/static/js/453.4b5b5ab1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.93bfc8ef.js"
+    "static/js/main.184e7995.js"
   ]
 }
